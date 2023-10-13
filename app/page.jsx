@@ -7,24 +7,24 @@ export default function Home() {
 
   return (
     <div className="">
-      <div className="flex px-14">
+      <div className="flex px-14 max-md:px-4 max-lg:flex-col-reverse">
         <div className="flex-1">
 
-        <h1 className={`mt-20 text-6xl ${mainFontFamily.className}`}>Trusted by athletes</h1>
-        <p className='mt-6 mb-10 text-[#808080] font-semibold w-[25rem] '>Integrated with A.I to ensure your massage pressure is never compromised</p>
+        <h1 className={`mt-20  text-6xl ${mainFontFamily.className} max-md:text-5xl max-sm:text-4xl`}>Trusted by athletes</h1>
+        <p className='mt-6 mb-10 text-[#808080] font-semibold w-[25rem] max-sm:w-[18rem] '>Integrated with A.I to ensure your massage pressure is never compromised</p>
 
-        <div className='flex gap-4 items-center'>
+        <div className='flex gap-4 items-center flex-wrap max-md:justify-center'>
           <p className='text-3xl font-semibold'>18 <span className='text-xl'>Months</span> <span className='block text-base text-[#808080] mt-[0.7rem]'>Included Warranty</span></p>
           <p className='text-3xl font-semibold'>10000+ <span  className='block text-base text-[#808080] mt-[0.7rem]'>Loyal customers</span></p>
           <figure>
             <img src="/assets/stars.svg" alt="stars" />
             <figcaption>
-              <p className='text-[#808080] font-semibold'>Stars</p>
+              <p className='text-[#808080] font-semibold max-md:text-center'>Stars</p>
             </figcaption>
           </figure>
         </div>
 
-        <div className='mt-10 space-y-12 '>
+        <div className='mt-10 space-y-12 max-md:text-center '>
           <button type='button' className=' bg-[#2bf6fa] text-black p-2 px-7 '>
             <span className='uppercase font-bold text-lg '>Buy Now</span>
             <span className='block text-[0.7rem] font-semibold'>(Risk free 30 day trials)</span>
@@ -35,36 +35,37 @@ export default function Home() {
             <p className='tracking-wider font-bold text-[#2bf6fa]'>Free Worldwide Express Delivery</p>
           </div>
 
-          <div className='mt-7 flex gap-7'>
+          <div className='mt-7 flex gap-7 max-md:justify-center'>
             <img src="/assets/afterpay.svg" alt="afterpay" />
             <img src="/assets/zip.svg" alt="afterpay" />
           </div>
         </div>
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 max-lg:w-72 m-auto">
           <img src="/assets/banner-right.svg" alt="banner" />
         </div>
 
       </div>
 
-      <div className='flex justify-center items-center gap-16 mt-20 px-14'>
-        <img src="/assets/moneyback.svg" alt="" />
-        <img src="/assets/expressdelivery.svg" alt="" />
+      <div className='flex justify-center items-center gap-16 mt-20 px-14 max-md:px-4 max-md:gap-6'>
+        <img src="/assets/moneyback.svg" alt="" className=' max-md:w-[30%]' />
 
-        <img src="/assets/trusted.svg" alt="" />
+        <img src="/assets/expressdelivery.svg" alt="" className=' max-md:w-[30%]' />
+
+        <img src="/assets/trusted.svg" alt="" className=' max-md:w-[30%]' />
       </div>
 
-      <div className='px-14' >
-        <h2 className={` text-center text-8xl mt-20 text-[#191919] ${mainFontFamily.className} mb-14`}>Massage Gun</h2>
+      <div className='px-14 max-md:px-4' >
+        <h2 className={` text-center text-8xl mt-20 text-[#191919] ${mainFontFamily.className} mb-14 max-md:text-5xl max-[380px]:text-3xl `}>Massage Gun</h2>
 
         <div >
-          <div className='flex'>
+          <div className='flex max-lg:flex-col-reverse md'>
           <div className='flex-1' >
           <img src="/assets/massagegun.svg" alt="massagegun" />
         </div>
         <div className='flex-1'>
-          <h3 className={` text-4xl  mb-8 ${mainFontFamily.className} `}>What makes this gun diferrent from the rest</h3>
+          <h3 className={` text-4xl max-[350px]:text-3xl  mb-8 ${mainFontFamily.className} `}>What makes this gun diferrent from the rest</h3>
 
           <div className='flex'>
             <div className='flex-1'>
@@ -117,7 +118,7 @@ export default function Home() {
         </div>
           </div>
 
-          <div className='mt-20 flex gap-14'>
+          <div className='mt-20 flex gap-14 max-lg:flex-col md'>
               <div className='flex-1'>
               <h3 className={`text-4xl mb-8 ${mainFontFamily.className}`}>The Benefits</h3>
 
@@ -175,12 +176,12 @@ export default function Home() {
         <img src="/assets/banner.svg" alt=""  />
       </div>
 
-      <div className='flex px-14 gap-16 mt-4'>
+      <div className='flex px-14 max-md:px-4 gap-16 mt-4 max-lg:flex-col-reverse'>
         <div className='flex-1'>
           <img src="/assets/kitmassage.svg" alt="kit massagem" />
         </div>
 
-        <div className='flex-1 mt-20'>
+        <div className='flex-1 mt-20 '>
           <h3 className={`text-4xl tracking-wide mb-12 ${mainFontFamily.className}`}>What is included in your order</h3>
 
           <ul className='list-disc pl-7 text-[#808080]'>
