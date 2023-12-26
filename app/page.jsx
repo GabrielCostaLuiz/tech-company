@@ -173,7 +173,7 @@ export default function Home() {
       </div>
 
       <div className='mt-20'>
-        <img src="/assets/banner.svg" alt=""  />
+        <img src="/assets/banner.svg" alt="" className='min-w-full'  />
       </div>
 
       <div className='flex px-14 max-md:px-4 gap-16 mt-4 max-lg:flex-col-reverse'>
@@ -197,7 +197,7 @@ export default function Home() {
       </div>
 
       <div className='mt-20'>
-        <img src="/assets/recovery-banner.svg" alt="recovery-banner" />
+        <img src="/assets/recovery-banner.svg" alt="recovery-banner" className='min-w-full' />
       </div>
     </div>
   )
